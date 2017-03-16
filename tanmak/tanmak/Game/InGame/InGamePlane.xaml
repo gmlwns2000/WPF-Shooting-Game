@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="tanmak.Game.InGamePlane"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:tanmak.Game"
+             xmlns:engine="clr-namespace:tanmak.Engine"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <engine:GamePlane x:Name="plane"/>
+        <Button x:Name="Bt_Restart" Content="restart" Padding="5" Margin="5" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Bt_Restart_Click"/>
+    </Grid>
+</UserControl>

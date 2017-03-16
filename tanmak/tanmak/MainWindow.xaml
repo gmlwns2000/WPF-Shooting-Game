@@ -1,0 +1,12 @@
+﻿<Window x:Class="tanmak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tanmak"
+        mc:Ignorable="d"
+        Title="WPF로 탄막 게임을 만들어보았다" Height="600" Width="385">
+    <Grid x:Name="grid">
+        
+    </Grid>
+</Window>
